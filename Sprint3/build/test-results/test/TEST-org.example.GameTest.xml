@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.GameTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-06-06T04:42:48" hostname="DESKTOP-95F1O9I" time="0.064">
+  <properties/>
+  <testcase name="userShouldKnowWhenAGameIsWon()" classname="org.example.GameTest" time="0.049"/>
+  <testcase name="feedBackGeneratorShouldReturnFeedback()" classname="org.example.GameTest" time="0.0"/>
+  <testcase name="userShouldKnowWhenAGameIsLost()" classname="org.example.GameTest" time="0.001"/>
+  <testcase name="hintGeneratorShouldReturnAHint()" classname="org.example.GameTest" time="0.004"/>
+  <testcase name="gameShouldFinishWhenAllLettersAreCorrect()" classname="org.example.GameTest" time="0.002"/>
+  <testcase name="wordSelectorShouldSelectAWord()" classname="org.example.GameTest" time="0.001"/>
+  <testcase name="tryesShouldDecrementAfterEveryGuess()" classname="org.example.GameTest" time="0.002"/>
+  <system-out><![CDATA[Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Mal intento
+Feedback: Mal intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+Feedback: Buen intento
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

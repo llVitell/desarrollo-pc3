@@ -1,0 +1,9 @@
+org.example.Game#main([Ljava/lang/String;)V
+org.example.WordSelector#<init>()V
+org.example.HintGenerator#<init>()V
+org.example.Game#<init>(Lorg/example/IWordSelector;Lorg/example/IHintGenerator;)V
+org.example.WordSelector#instance-init#
+org.example.Game#instance-init#
+org.example.HintGenerator#instance-init#
+==
+start org.example.Game#start()Z

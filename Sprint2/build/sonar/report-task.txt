@@ -1,0 +1,7 @@
+organization=test-software
+projectKey=org.example:Actividad1-Testing
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.54760
+dashboardUrl=https://sonarcloud.io/dashboard?id=org.example%3AActividad1-Testing
+ceTaskId=AY_oqyPsy8GXKsM-0ML-
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY_oqyPsy8GXKsM-0ML-

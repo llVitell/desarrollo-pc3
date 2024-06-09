@@ -1,0 +1,53 @@
+
+Lorg.example.HintGenerator#generateHint(Ljava/lang/String;)Ljava/lang/String;•
+ŠC:/Users/viteo/OneDrive/Escritorio/CC3S2--2024-I/PracticaCalificada3-CC3S2/Ejercicio3/Sprint1/src/main/java/org/example/HintGenerator.java ("startingBlock*†
+startingBlock (+‹
+ˆ
+ (
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+wordjava.lang.StringX
+V
+& (*
+wordjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+1*‚
+1 (us
+! (.	
+%0int"java.lang.String#length()I*6
+
+__unknown_file (
+
+wordjava.lang.String2length()f
+d
+ (.
+%1java.lang.String"__concat*
+ (
+The word has *
+! (.
+	
+%0intn
+l
+ (;
+%2java.lang.String"__concat*$
+ (.
+
+%1java.lang.String*
+1 (;
+
+ letters"$
+ (<
+
+%2java.lang.String:$
+ (*
+wordjava.lang.StringB
+org.example.HintGeneratorH

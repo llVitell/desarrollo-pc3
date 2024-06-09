@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id "org.sonarqube" version "4.4.1.3373"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+
+    testImplementation 'org.assertj:assertj-core:3.23.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+sonar {
+    properties {
+        property "sonar.organization", "test-software"
+        property "sonar.token", "4f32aebfc46cb5cc4f59efbf4f02e1433f70101e"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
+}
